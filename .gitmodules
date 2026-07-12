@@ -1,0 +1,4 @@
+[submodule "manual"]
+	path = manual
+	url = https://github.com/shawnwilkespro/interface-manual.git
+
