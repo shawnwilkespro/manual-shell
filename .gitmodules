@@ -1,4 +1,4 @@
-[submodule "manual"]
-	path = manual
-	url = https://github.com/shawnwilkespro/interface-manual.git
+[submodule "manual-app"]
+	path = manual-app
+	url = https://github.com/shawnwilkespro/manual-app.git
 
