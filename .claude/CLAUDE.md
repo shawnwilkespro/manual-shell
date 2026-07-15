@@ -34,6 +34,15 @@ ws-a, ws-b, ws-c  →  develop  →  staging  →  main
 
 Changes promote UP, sync DOWN — same pattern as `interface-shell`.
 
+## Workflow
+
+All branch management (sync, promote, integrate) is handled via the `/git` skill:
+- `/git sync [branch]` — fan changes downstream
+- `/git promote <branch>` — push changes upstream
+- `/git integrate <workspace>` — merge feature workspace into develop
+
+Skill definition: `~/.claude/skills/git/SKILL.md`
+
 ## Rules
 
 - Always `cd` into `manual-app/` or the target worktree before making changes
